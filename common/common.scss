@@ -1461,11 +1461,11 @@ padding-right: 10px;
     color: #E05852;
 }
 
-.footer-bottom .footer-socials a {
+.footer-bottom .footer-socials a .d-icon {
     color: gray;
     transition: color .3s;
 }
 
-.footer-bottom .footer-socials a:hover {
+.footer-bottom .footer-socials a .d-icon:hover {
     color: #E05852;
 }
