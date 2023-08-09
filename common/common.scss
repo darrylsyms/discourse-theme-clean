@@ -1447,17 +1447,25 @@ padding-right: 10px;
     display: block;
     line-height: 1;
     margin: 6px;
+    font-size: 22px;
 }
 
 .footer-bottom li a {
     font-size: 13px;
     color: gray;
     letter-spacing: -.24px;
+    transition: color .3s;
+}
+
+.footer-bottom li a:hover {
+    color: #E05852;
 }
 
 .footer-socials .d-icon {
     color: gray;
+    transition: color .3s;
 }
-.footer-socials .icon {
-    font-size: 22px;
+
+.footer-socials .d-icon:hover {
+    color: #E05852;
 }
