@@ -1308,6 +1308,16 @@ aside.onebox {
 /* Footer */
 .footer-bottom {
     padding: 30px;
+    background-color: #2D2D2D;
+}
+.footer-bottom .flex {
+    display: flex;
+}
+.footer-bottom .container {
+    margin-left: auto;
+margin-right: auto;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 .footer-logo-wrap {
