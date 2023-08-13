@@ -476,37 +476,37 @@ input:hover,
 
 /* Topic Body */
 .posts-wrapper {
-	border: 2px solid var(--primary-low);
-border-radius: 20px;
-background: var(--header_background);
-padding: 1em 0 1em 1em;
+    border: 2px solid var(--primary-low);
+    border-radius: 20px;
+    background: var(--header_background);
+    padding: 1em 0 1em 1em;
 }
 
 .post-stream .topic-owner .topic-avatar,
 .post-stream .topic-owner .topic-body {
-	border-top: 0 !important;
+    border-top: 0 !important;
 }
 
 .topic-avatar {
-	padding-right: 6px;
+    padding-right: 6px;
 }
 
 .topic-timer-info {
-	border-top: 0 !important;
+    border-top: 0 !important;
 }
 
 .topic-body {
-	padding: 10px 10px 0 0;
-	border-radius: 8px;
+    padding: 10px 10px 0 0;
+    border-radius: 8px;
 }
 
 .names .user-title--fw-premium {
-	background-color: #F24B4B;
-	color: #fff;
-	font-size: 9px;
-	font-weight: 600;
-	border-radius: 8px;
-	padding: 2px 6px;
+    background-color: #F24B4B;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 2px 6px;
 }
 
 
@@ -792,13 +792,44 @@ nav.post-controls .actions>button.reply:last-child:hover * {
 }
 
 .d-header {
-	height: 80px;
-	box-shadow: 0 1px 0 0 rgba(139, 141, 157, .05), 0 5px 10px 0 rgba(65, 71, 108, .15);
+    height: 80px;
+    box-shadow: 0 1px 0 0 rgba(139, 141, 157, .05), 0 5px 10px 0 rgba(65, 71, 108, .15);
 }
 
 .d-header #site-logo {
     min-height: 60px;
     padding: 10px 0;
+}
+
+.panel .header-buttons {
+    order: 2;
+}
+
+.panel .icons {
+    order: 1;
+}
+
+.d-header .login-button .fa {
+    display: none;
+}
+
+.d-header .wrap {
+    max-width: 100% !important;
+    padding: 0 50px !important;
+}
+
+body .d-header-wrap .d-header .contents a,
+body .d-header-wrap .d-header .contents span {
+    font-size: 14px !important;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+
+.d-header .header-buttons .login-button.btn-primary {
+    min-height: 34px;
+    line-height: 34px;
+    padding: 0 20px;
+    border-radius: 8px;
 }
 
 /*   Sidebar   */
@@ -1356,9 +1387,11 @@ aside.onebox {
     background-color: #222222;
     border-top: 1px solid var(--primary-low);
 }
+
 .footer-bottom .flex {
     display: flex;
 }
+
 .footer-bottom .container {
     margin-left: auto;
     margin-right: auto;
@@ -1517,4 +1550,26 @@ aside.onebox {
 
 #main-outlet-wrapper #main-outlet {
     margin-bottom: 20px;
+}
+
+/* Ads */
+.discourse-ad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--tertiary-100);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.discourse-ad-body {
+    margin: 10px 10px;
+}
+
+.discourse-ad h2 {
+    margin: 0 !important;
+}
+
+.discourse-ad p {
+    margin: 5px 0px;
 }
