@@ -1,0 +1,15 @@
+// Used to ensure footer stays at the bottom of page when main content is too short. Put in a theme component.
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    let headerHeight = document.querySelector(".d-header").offsetHeight;
+    let footerHeight = document.querySelector(".footer-bottom").offsetHeight;
+    let mainOffset = headerHeight + footerHeight;
+
+    document.querySelector("#main-outlet").style.minHeight = "calc(100vh - 20px - " + mainOffset + "px)";
+  });
+</script>
+
+// complimenting CSS which should go in common.scss
+#main-outlet {
+  box-sizing: border-box; // includes padding in height calculation
+}
