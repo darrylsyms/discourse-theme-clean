@@ -519,6 +519,10 @@ body .topic-body {
 	width: calc(var(--topic-body-width) + 6px) !important;
 }
 
+.topic-map .map .btn.btn-icon {
+    margin-top: 1px;
+}
+
 /* Alert */
 .alert.alert-info {
     border-radius: var(--ant-radius);
@@ -829,7 +833,7 @@ nav.post-controls .actions>button.reply:last-child:hover * {
 }
 */
 
-body .d-header-wrap .d-header .contents a {
+.d-header .custom-header-links a {
     font-size: 14px !important;
     font-weight: 700;
     -webkit-font-smoothing: antialiased;
