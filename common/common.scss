@@ -458,6 +458,9 @@ input:hover,
     background: var(--secondary);
 }
 
+.first.new-user:not(.staff) a {
+	color: var(--primary-high-or-secondary-low);
+}
 
 .user-main .about.has-background,
 .user-main .about.no-background {
@@ -485,11 +488,11 @@ input:hover,
     border: 2px solid var(--primary-low);
     border-radius: 20px;
     background: var(--header_background);
-    padding: 1em;
+    padding: 1em 0;
 }
 
-.post-stream .topic-owner .topic-avatar,
-.post-stream .topic-owner .topic-body {
+.post-stream #post_1 .topic-avatar,
+.post-stream #post_1 .topic-body {
     border-top: 0 !important;
     padding-top: 10px;
 }
@@ -535,6 +538,10 @@ body .topic-body {
 	border-top: 0;
 	border-radius:3px;
     margin: 10px 0;
+}
+
+.topic-post:hover {
+	background: var(--secondary);
 }
 
 /* Alert */
