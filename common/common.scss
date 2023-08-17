@@ -488,7 +488,6 @@ input:hover,
     border: 2px solid var(--primary-low);
     border-radius: 20px;
     background: var(--header_background);
-    padding: 1em 0;
 }
 
 .post-stream #post_1 .topic-avatar,
@@ -538,6 +537,20 @@ body .topic-body {
 	border-top: 0;
 	border-radius:3px;
     margin: 10px 0;
+}
+
+.post-stream .topic-post:first-child {
+    padding-top: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+.post-stream .topic-post:last-child {
+    padding-bottom: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.topic-post {
+    padding: 0 20px;
 }
 
 .topic-post:hover {
