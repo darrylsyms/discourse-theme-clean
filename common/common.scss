@@ -500,9 +500,12 @@ input:hover,
     padding: 20px 15px 0 0;
 }
 
+.topic-post:not(.sticky-avatar) .topic-avatar {
+    padding-top: 20px;
+}
+
 .topic-avatar {
     padding-right: 6px;
-    padding-top: 20px;
 }
 
 .topic-timer-info {
