@@ -525,6 +525,9 @@ body .topic-body {
     width: 100%;
     /* width: calc(var(--topic-body-width) + 6px) !important; */
 }
+.small-action.topic-post-visited .topic-post-visited-line {
+    width: 100%;
+}
 
 .open .grippie {
     border-radius: 10px;
