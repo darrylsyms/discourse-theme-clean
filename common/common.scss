@@ -566,10 +566,6 @@ body .topic-body {
     padding: 0 20px;
 }
 
-.topic-post:hover {
-    background: var(--secondary);
-}
-
 @media screen and (min-width: 925px) {
     .container.posts .topic-navigation {
         margin-left: 2em;
@@ -821,7 +817,8 @@ nav.post-controls .actions>button.reply:last-child:hover * {
 
 .d-header {
     height: 80px;
-    box-shadow: 0 1px 0 0 rgba(139, 141, 157, .05), 0 5px 10px 0 rgba(65, 71, 108, .15);
+    /* box-shadow: 0 1px 0 0 rgba(139, 141, 157, .05), 0 5px 10px 0 rgba(65, 71, 108, .15); */
+    border-bottom: 1px solid var(--primary-low);
 }
 
 .d-header #site-logo {
