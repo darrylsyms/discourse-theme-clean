@@ -479,9 +479,18 @@ input:hover,
 }
 
 /* Topic Body */
-.posts-wrapper {
+body:not(.archetype-private_message) .posts-wrapper {
     border: 2px solid var(--primary-low);
     border-radius: 20px;
+    background: var(--header_background);
+}
+
+body.archetype-private_message .small-action .topic-avatar, 
+body.archetype-private_message .small-action .small-action-desc {
+    border-top: 0;
+}
+
+body.archetype-private_message .topic-body .cooked {
     background: var(--header_background);
 }
 
