@@ -485,7 +485,7 @@ body:not(.archetype-private_message) .posts-wrapper {
     background: var(--header_background);
 }
 
-body.archetype-private_message .small-action .topic-avatar, 
+body.archetype-private_message .small-action .topic-avatar,
 body.archetype-private_message .small-action .small-action-desc {
     border-top: 0;
 }
@@ -529,13 +529,14 @@ body.archetype-private_message .topic-body .cooked {
 }
 
 .names .user-title--fw-premium a {
-color: var(--primary);
+    color: var(--primary);
 }
 
 body .topic-body {
     width: 100%;
     /* width: calc(var(--topic-body-width) + 6px) !important; */
 }
+
 .small-action.topic-post-visited .topic-post-visited-line {
     width: 100%;
 }
@@ -871,8 +872,8 @@ nav.post-controls .actions>button.reply:last-child:hover * {
 
 .d-header .custom-header-links a[title="Courses archive"] {
     border: 1px solid;
-border-radius: 24px;
-padding: 5px 12px;
+    border-radius: 24px;
+    padding: 5px 12px;
 }
 
 /*   Sidebar   */
@@ -1075,8 +1076,8 @@ padding: 5px 12px;
 }
 
 .discourse-tag {
-	/*overflow: visible;*/
-	border-radius: 0.25em;
+    /*overflow: visible;*/
+    border-radius: 0.25em;
     padding: 0.15em 0.25em 0.15em 0.35em;
     background-color: var(--primary-low);
     max-width: 10em;
@@ -1084,12 +1085,20 @@ padding: 5px 12px;
 }
 
 .discourse-tags .discourse-tag.simple:not(:last-child):after {
-	content: "";
+    content: "";
 }
 
 /*   Users   */
 .card-content .username:before {
     content: "@";
+}
+
+.user-field-profile-photo .checkbox-label {
+    display: none;
+}
+
+.user-field-profile-photo a {
+    margin: 0;
 }
 
 /* Category */
