@@ -880,6 +880,7 @@ nav.post-controls .actions>button.reply:last-child:hover * {
 
 .sidebar-wrapper {
     background-color: var(--secondary);
+    transition: height 0.3s ease-in-out; /* Add a smooth transition effect */
 }
 
 .has-sidebar-page .sidebar-wrapper {
