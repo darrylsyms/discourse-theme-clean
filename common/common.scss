@@ -696,8 +696,8 @@ nav.post-controls .actions .double-button button:last-child {
 
 nav.post-controls .actions>button.edit:last-child,
 nav.post-controls .actions>button.reply:last-child {
-    border: 1px solid var(--tertiary-800);
-    background: var(--secondary);
+    //border: 1px solid var(--tertiary-800);
+    //background: var(--secondary);
     box-shadow: var(--btn-box-shadow);
     opacity: 1;
     transition: all 0.3s;
@@ -705,8 +705,9 @@ nav.post-controls .actions>button.reply:last-child {
 
 nav.post-controls .actions>button.edit:last-child:hover,
 nav.post-controls .actions>button.reply:last-child:hover {
-    background: var(--tertiary-hover);
-    border: 1px solid var(--tertiary);
+    //background: var(--tertiary-hover);
+    //border: 1px solid var(--tertiary);
+    min-width: 0;
 }
 
 nav.post-controls .actions>button.edit:last-child:active,
@@ -716,14 +717,15 @@ nav.post-controls .actions>button.reply:last-child:active {
 
 nav.post-controls .actions>button.edit:last-child *,
 nav.post-controls .actions>button.reply:last-child * {
-    color: var(--tertiary-800);
+    //color: var(--tertiary-800);
     font-size: 90%;
     transition: all 0.3s;
 }
 
 nav.post-controls .actions>button.edit:last-child:hover *,
 nav.post-controls .actions>button.reply:last-child:hover * {
-    color: var(--secondary);
+    //color: var(--secondary);
+    min-width: 0;
 }
 
 .discourse-no-touch .discourse-reactions-actions:not(.has-reacted):not(.my-post) .discourse-reactions-double-button:hover,
