@@ -38,14 +38,14 @@
 .discourse-no-touch .btn.btn-hover,
 .btn:focus {
     background: var(--secondary);
-    color: var(--btn-default-hover);
-    border-color: var(--tertiary-900);
+    color: var(--tertiary);
+    border-color: var(--tertiary);
 }
 
 .discourse-no-touch .btn:hover .d-icon,
 .discourse-no-touch .btn.btn-hover .d-icon,
 .btn:focus .d-icon {
-    color: var(--btn-default-hover);
+    color: var(--tertiary);
 }
 
 
