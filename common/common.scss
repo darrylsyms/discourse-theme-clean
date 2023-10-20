@@ -1217,6 +1217,10 @@ div.edit-category .edit-category-nav .nav-stacked,
     outline: none;
 }
 
+.user-card h3 {
+    margin-right: 15px;
+}
+
 .top-sub-section li {
     border: none;
 }
@@ -1301,6 +1305,11 @@ div.edit-category .edit-category-nav .nav-stacked,
 .emoji-picker {
     border-radius: var(--ant-radius);
     box-shadow: var(--menu-box-shadow);
+}
+
+img.emoji {
+    width: 19px;
+    height: 19px;
 }
 
 .discourse-no-touch .btn-flat:hover .badge-notification .d-icon,
